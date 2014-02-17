@@ -118,6 +118,10 @@ header h2 a {
     font-style: italic;
 }
 
+header h2 a:hover {
+    color:#aaa;
+}
+
 .inner {
   position: relative;
   width: 940px;
@@ -179,16 +183,16 @@ header a.button {
 }
 
 aside a {
-  width: 142px;
-  color:#fff;
+  width: 150px;
+  color:#ccc;
   padding:15px;
   display: block;
   background: #000;
   margin-bottom: 20px;
-  font-size: 1em;
+  font-size: 1.2em;
 }
 aside a:hover {
-    color:#ccc;
+    color:#aaa;
 }
 aside a.button {
   width: 142px;
